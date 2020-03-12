@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/think/static/css/main.46ec0f99.chunk.css",
+    "main.js": "/think/static/js/main.73bf86d2.chunk.js",
+    "main.js.map": "/think/static/js/main.73bf86d2.chunk.js.map",
+    "runtime-main.js": "/think/static/js/runtime-main.1828915c.js",
+    "runtime-main.js.map": "/think/static/js/runtime-main.1828915c.js.map",
+    "static/js/2.ff49a88d.chunk.js": "/think/static/js/2.ff49a88d.chunk.js",
+    "static/js/2.ff49a88d.chunk.js.map": "/think/static/js/2.ff49a88d.chunk.js.map",
+    "index.html": "/think/index.html",
+    "precache-manifest.b6cfad93312406b0944703b25b0f9ce9.js": "/think/precache-manifest.b6cfad93312406b0944703b25b0f9ce9.js",
+    "service-worker.js": "/think/service-worker.js",
+    "static/css/main.46ec0f99.chunk.css.map": "/think/static/css/main.46ec0f99.chunk.css.map",
+    "static/js/2.ff49a88d.chunk.js.LICENSE.txt": "/think/static/js/2.ff49a88d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/think/static/media/decorative-circle-half.514155ac.png",
+    "static/media/logo.svg": "/think/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1828915c.js",
+    "static/js/2.ff49a88d.chunk.js",
+    "static/css/main.46ec0f99.chunk.css",
+    "static/js/main.73bf86d2.chunk.js"
+  ]
+}
