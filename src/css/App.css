@@ -1,0 +1,166 @@
+
+/*imports */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500');
+
+/* main */
+
+body {
+  font-family: 'Raleway', cursive;
+  font-weight: 100;
+}
+
+
+.bg {
+  background-image: url(../images/decorative-circle-half.png);
+  background-repeat: no-repeat;
+  background-size:80%;
+  background-position: 250% 0%;
+  background-attachment:fixed;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_wrapper {
+  flex-direction: row;
+}
+.txt_1{
+  font-size:30px;/*better to use relative*/
+  color: #3f4a75;
+  width:300px;
+  text-align: left;
+  
+}
+.txt_2{
+  font-size:30px;
+  color: #db487e;
+}
+.list {
+  font-size:20px;
+  color: #3f4a75;
+  padding-top: 30px !important;
+}
+.listItem {
+  padding-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+.list_selected {
+  font-weight: 500;
+
+}
+.pic_1_1 {
+  width: 600px;
+  height: 600px;
+  padding:50px;
+} 
+@media only screen and ( min-width: 768px)
+{
+  .pic_one {
+    background-image: url(../images/64152862_mask.png) ;
+    
+  }
+  .pic_two {
+    background-image: url(../images/64152862_mask_2.png) ;
+  }
+  .pic_three {
+    background-image: url(../images/64152862_mask_3.png) ;
+  }
+  .pic_four {
+    background-image: url(../images/64152862_mask_4.png) ;
+  }
+  .pic_five {
+    background-image: url(../images/64152862_mask_5.png) ;
+  }
+  .row_1 {
+    height: 250px;
+  }
+  .row_2 {
+    height: 588px;
+    padding-top:34px;
+  }
+  .row_3 {
+    height: 100%;
+  }
+}
+.pic_one,
+.pic_two,
+.pic_three,
+.pic_four,
+.pic_five {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+  
+  transition: background-image 1s ease-in-out;
+  
+  display: flex;
+  flex-direction: column;
+}
+.inner_row{
+  width:100%;
+  
+}
+.row_1 {
+  display:flex;
+  justify-content: center;
+  margin-top:-4px;
+}
+.row_2 {
+  display: flex;
+  justify-content: space-between; 
+  margin-left: 44px;
+  
+}
+.row_3 {
+  display: flex;
+  align-items:flex-end;
+  justify-content: space-around; 
+}
+.btn {
+  width: 100px;
+  height:100px;
+}
+.btn_top {
+  display: flex;
+  justify-content: center;
+}
+.btn_lh {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -20px;
+}
+.btn_rh {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 25px;
+}
+.btn_btm_lh {
+  display:flex;
+  justify-content: flex-start;
+  padding-right: 10px;
+}
+.btn_btm_rh {
+  display:flex;
+  justify-content: flex-end;
+}
+.fab {
+  border:2px solid #3f4a75 !important;
+}
+.selected {
+  background: #3f4a75 !important;
+  color: white !important;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
