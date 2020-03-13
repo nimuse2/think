@@ -2,7 +2,7 @@ Demo: https://nimuse2.github.io/think/
 
 ## User Info.  
 -  click on icons to change pictures and headings 
--  will look at using alpha channel css next
+-  will look at using alpha channel css instead of fixed background next
 
 ## Layout
 - icons wrong  
