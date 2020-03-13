@@ -20,6 +20,7 @@ Demo: https://nimuse2.github.io/think/
 - abstract code into components/ functions
 - use scss
 - add top right kebab menu
-- work on animations
+- work on animations  
+- preloading graphics  
 
 :octopus:
