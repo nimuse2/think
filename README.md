@@ -18,6 +18,7 @@ Demo: https://nimuse2.github.io/think/
 
 ## Further Developments
 - abstract code into components/ functions
+- use scss
 - add top right kebab menu
 - work on animations
 
